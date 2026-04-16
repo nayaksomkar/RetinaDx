@@ -2,7 +2,8 @@
 
 A deep learning and machine learning system for classifying retinal diseases from fundus images. Supports multiple model architectures including DenseNet, ResNet, and traditional ML classifiers.
 
-For full documentation, see: [RetinaDxGit.pdf](assets/RetinaDxGit.pdf)
+- **Quick Overview**: [RetinaDxPPT.pdf](assets/RetinaDxPPT.pdf) - Short presentation
+- **Full Documentation**: [RetinaDxGit.pdf](assets/RetinaDxGit.pdf) - Detailed report
 
 ## Features
 
