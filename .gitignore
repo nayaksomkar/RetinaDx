@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Model outputs (generated after training)
+reports/
+models/
+
+# Dataset (your data)
+RetinaDxDataSet/
+
+# Logs
+*.log
