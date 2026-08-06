@@ -5,6 +5,8 @@ A deep learning and machine learning system for classifying retinal diseases fro
 - **Quick Overview**: [RetinaDxPPT.pdf](assets/RetinaDxPPT.pdf) - Short presentation
 - **Full Documentation**: [RetinaDxGit.pdf](assets/RetinaDxGit.pdf) - Detailed report
 
+Dataset https://www.kaggle.com/datasets/gunavenkatdoddi/eye-diseases-classification
+
 ## Features
 
 - **Deep Learning Models**: DenseNet121, ResNet50, ResNet101, Xception
