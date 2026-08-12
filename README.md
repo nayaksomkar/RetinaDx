@@ -1,11 +1,14 @@
 # RetinaDx - Retinal Disease Classification System
 
+![Python](https://img.shields.io/badge/python-3.9%2B-blue)
+![PyTorch](https://img.shields.io/badge/pytorch-2.0%2B-red)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 A deep learning and machine learning system for classifying retinal diseases from fundus images. Supports multiple model architectures including DenseNet, ResNet, and traditional ML classifiers.
 
-- **Quick Overview**: [RetinaDxPPT.pdf](assets/RetinaDxPPT.pdf) - Short presentation
-- **Full Documentation**: [RetinaDxGit.pdf](assets/RetinaDxGit.pdf) - Detailed report
-
-Dataset https://www.kaggle.com/datasets/gunavenkatdoddi/eye-diseases-classification
+- **Presentation**: [RetinaDxPPT.pdf](assets/RetinaDxPPT.pdf)
+- **Full Report**: [RetinaDxGit.pdf](assets/RetinaDxGit.pdf)
+- **Dataset**: [Eye Diseases Classification (Kaggle)](https://www.kaggle.com/datasets/gunavenkatdoddi/eye-diseases-classification)
 
 ## Features
 
@@ -130,6 +133,19 @@ For complete details, training results, confusion matrices, and performance metr
 | FPR | False positive rate |
 | FNR | False negative rate |
 
+## Sample Results
+
+Run training to generate results. Example outputs:
+
+- Confusion matrices
+- Training history plots  
+- Per-class performance charts
+
+After running, check:
+
+- `reports/{model_name}/images/` for generated plots
+- `reports/{model_name}/{model_name}_report.pdf` for full PDF report
+
 ## Project Structure
 
 ```
@@ -163,23 +179,14 @@ RetinaDx/
 - fpdf
 - tqdm
 
-## Sample Results
-
-Run training to generate results. Example outputs:
-
-- Confusion matrices
-- Training history plots  
-- Per-class performance charts
-
-After running, check:
-
-- `reports/{model_name}/images/` for generated plots
-- `reports/{model_name}/{model_name}_report.pdf` for full PDF report
-
 ## Hardware
 
 - **Minimum**: 8GB RAM, CPU training
 - **Recommended**: 16GB RAM, NVIDIA GPU with 8GB+ VRAM
+
+## Kaggle Notebook
+
+For a no-setup option, use the [Kaggle notebook](kaggle/kaggle.md) with GPU acceleration.
 
 ## Acknowledgments
 
